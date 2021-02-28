@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Talento Mobile</string>
+    <string name="app_commercial_name">Faith\nManager</string>
+    <string name="ok">OK</string>
+
+    <!-- BOTTOM BAR -->
+    <string name="catholic">Catolicas</string>
+    <string name="non_catholic">No catolicas</string>
+
+    <!-- DETAIL OPTIONS -->
+    <string name="confession">Confesionalidad:</string>
+    <string name="description">Descripción:</string>
+    <string name="address">Dirección:</string>
+    <string name="catholic_confession">Católica</string>
+    <string name="non_catholic_confession">No Católica</string>
+
+    <!-- ERRORS -->
+    <string name="no_network_error">Es necesaria una conexión de wifi o datos. Por favor, conecte y vuelva a intentarlo</string>
+    <string name="unexpected_error">Se ha producido un error al realizar la operación</string>
+</resources>

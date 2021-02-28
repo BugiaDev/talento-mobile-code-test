@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/catholic_nav"
+        android:enabled="true"
+        android:icon="@drawable/ic_holy_bible"
+        android:title="@string/catholic" />
+
+    <item
+        android:id="@+id/non_catholic_nav"
+        android:enabled="true"
+        android:icon="@drawable/ic_temple"
+        android:title="@string/non_catholic" />
+
+</menu>

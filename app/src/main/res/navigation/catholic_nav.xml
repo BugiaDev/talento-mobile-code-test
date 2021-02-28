@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/catholic_nav"
+    app:startDestination="@id/catholic_fragment">
+
+    <fragment
+        android:id="@+id/catholic_fragment"
+        android:name="com.bugiadev.talentomobile.ui.main.ChurchListFragment"
+        android:label="CatholicFragment">
+
+        <action
+            android:id="@+id/action_catholic_list_to_detail"
+            app:destination="@id/catholic_detail_fragment"
+            app:enterAnim="@anim/anim_enter_from_right"
+            app:exitAnim="@anim/anim_exit_to_left"
+            app:popEnterAnim="@anim/anim_enter_from_left"
+            app:popExitAnim="@anim/anim_exit_to_right">
+
+            <argument
+                android:name="church"
+                app:argType="com.bugiadev.talentomobile.ui.presentation.ChurchDisplay" />
+            
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/catholic_detail_fragment"
+        android:name="com.bugiadev.talentomobile.ui.main.ChurchDetailFragment"
+        android:label="CatholicDetailFragment">
+
+        <argument
+            android:name="church"
+            app:argType="com.bugiadev.talentomobile.ui.presentation.ChurchDisplay" />
+
+    </fragment>
+
+</navigation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/church_row"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_list_height"
+        android:padding="@dimen/smallest_space">
+
+        <ImageView
+            android:id="@+id/church_image"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@null"
+            android:layout_width="@dimen/row_image_size"
+            android:layout_height="@dimen/row_image_size"/>
+
+        <TextView
+            android:id="@+id/church_name_textView"
+            android:textSize="@dimen/row_text_size"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/very_small_space"
+            android:layout_marginEnd="@dimen/very_small_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</layout>
